@@ -1,0 +1,19 @@
+baseURL = "https://49b.at/"
+languageCode = "en-us"
+title = "Peter Lechner"
+theme = "PaperMod"
+
+[params]
+  author = "Peter Lechner"
+  description = "A short bio about yourself"
+  homeInfoParams = { Title = "Hi, I'm Your Name", Content = "Welcome to my personal page. Write a short intro here." }
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/LechnerPeter"
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.disqus]
+    disable = true
