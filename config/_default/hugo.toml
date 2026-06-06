@@ -1,0 +1,4 @@
+baseURL = "https://49b.at/"
+title = "Peter Lechner"
+theme = "blowfish"
+defaultContentLanguage = "en"

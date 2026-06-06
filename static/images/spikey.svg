@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#1a1a2e"/>
+  <!-- Spiky circle -->
+  <polygon points="400,140 415,190 465,175 435,215 480,230 440,255 465,300 415,285 400,335 385,285 335,300 360,255 320,230 365,215 335,175 385,190"
+           fill="#e94560" opacity="0.9"/>
+  <circle cx="400" cy="238" r="38" fill="#1a1a2e"/>
+  <circle cx="400" cy="238" r="22" fill="#e94560" opacity="0.7"/>
+  <text x="400" y="385" font-family="monospace" font-size="28" fill="#e94560" text-anchor="middle">Spikey</text>
+</svg>

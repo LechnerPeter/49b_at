@@ -1,0 +1,9 @@
+{{- define "main" }}
+<div class="page-grid">
+  {{- range .Pages }}
+  <a class="page-card" href="{{ .Permalink }}">
+    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+  </a>
+  {{- end }}
+</div>
+{{- end }}

@@ -1,0 +1,18 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Peter Lechner"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+
+[params.author]
+  name = "Peter Lechner"
+  headline = "Programming · Woodworking"
+  links = [
+    { github = "https://github.com/LechnerPeter" }
+  ]

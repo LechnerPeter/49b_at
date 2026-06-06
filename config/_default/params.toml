@@ -1,0 +1,24 @@
+colorScheme = "ocean"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+[header]
+  layout = "fixed"
+
+[homepage]
+  layout = "background"
+  homepageImage = "images/programming.png"
+  showRecent = false
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
+  showScrollToTop = true
+
+[article]
+  showDate = false
+  showAuthor = false
