@@ -3,6 +3,7 @@
   {{- range .Pages }}
   <a class="page-card" href="{{ .Permalink }}">
     <img src="{{ .Params.image }}" alt="{{ .Title }}">
+    <span class="page-card-label">{{ .Title }}</span>
   </a>
   {{- end }}
 </div>

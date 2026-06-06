@@ -3,9 +3,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1314/categories/</loc>
+    <loc>http://localhost:1314/programming/home-automation/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/woodworking/logos/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/woodworking/mini-projects/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1314/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/woodworking/picture-frame/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/programming/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/programming/spikey/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/who-am-i/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/woodworking/</loc>
+    <lastmod>2026-06-06T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1314/categories/</loc>
   </url><url>
     <loc>http://localhost:1314/tags/</loc>
   </url>

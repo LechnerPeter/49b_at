@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Programming on Peter Lechner</title>
+    <link>https://49b.at/programming/</link>
+    <description>Recent content in Programming on Peter Lechner</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0200</lastBuildDate>
+    <atom:link href="https://49b.at/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HomeAutomation</title>
+      <link>https://49b.at/programming/home-automation/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://49b.at/programming/home-automation/</guid>
+      <description>&lt;h2 id=&#34;homeautomation&#34;&gt;HomeAutomation&lt;/h2&gt;
+&lt;p&gt;Write about the HomeAutomation project here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spikey</title>
+      <link>https://49b.at/programming/spikey/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>https://49b.at/programming/spikey/</guid>
+      <description>&lt;h2 id=&#34;spikey&#34;&gt;Spikey&lt;/h2&gt;
+&lt;p&gt;Write about the Spikey project here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

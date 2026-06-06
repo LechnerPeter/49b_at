@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0d1b2a"/>
+  <!-- House shape -->
+  <polygon points="400,140 520,230 520,320 280,320 280,230" fill="#1b4f72" stroke="#5dade2" stroke-width="3"/>
+  <!-- Roof -->
+  <polygon points="400,115 545,235 255,235" fill="#2471a3" stroke="#5dade2" stroke-width="3"/>
+  <!-- Door -->
+  <rect x="375" y="270" width="50" height="50" fill="#5dade2" opacity="0.8"/>
+  <!-- Window -->
+  <rect x="300" y="255" width="40" height="35" fill="#5dade2" opacity="0.5"/>
+  <line x1="320" y1="255" x2="320" y2="290" stroke="#0d1b2a" stroke-width="2"/>
+  <line x1="300" y1="272" x2="340" y2="272" stroke="#0d1b2a" stroke-width="2"/>
+  <!-- Wifi signal -->
+  <text x="490" y="200" font-family="sans-serif" font-size="22" fill="#5dade2" text-anchor="middle">&#x1F4F6;</text>
+  <text x="400" y="370" font-family="sans-serif" font-size="28" fill="#5dade2" text-anchor="middle">HomeAutomation</text>
+</svg>

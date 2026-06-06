@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Woodworking on Peter Lechner</title>
+    <link>http://localhost:1234/woodworking/</link>
+    <description>Recent content in Woodworking on Peter Lechner</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1234/woodworking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logos</title>
+      <link>http://localhost:1234/woodworking/logos/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1234/woodworking/logos/</guid>
+      <description>&lt;h2 id=&#34;logos&#34;&gt;Logos&lt;/h2&gt;
+&lt;p&gt;Write about the logos project here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mini Projects</title>
+      <link>http://localhost:1234/woodworking/mini-projects/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1234/woodworking/mini-projects/</guid>
+      <description>&lt;h2 id=&#34;mini-projects&#34;&gt;Mini Projects&lt;/h2&gt;
+&lt;p&gt;Write about the mini projects here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Picture Frame</title>
+      <link>http://localhost:1234/woodworking/picture-frame/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1234/woodworking/picture-frame/</guid>
+      <description>&lt;h2 id=&#34;picture-frame&#34;&gt;Picture Frame&lt;/h2&gt;
+&lt;p&gt;Write about the picture frame project here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

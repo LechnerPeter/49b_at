@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1234&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -9,16 +9,16 @@
 <meta name="keywords" content="">
 <meta name="description" content="A short bio about yourself">
 <meta name="author" content="Peter Lechner">
-<link rel="canonical" href="http://localhost:1314/404.html">
+<link rel="canonical" href="http://localhost:1234/404.html">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1314/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1314/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1314/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1314/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1314/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1234/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1234/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1234/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1234/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1234/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1314/404.html">
+<link rel="alternate" hreflang="en" href="http://localhost:1234/404.html">
 <noscript>
     <style>
         #theme-toggle,
@@ -27,72 +27,99 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
+</noscript><style>
+    .page-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        padding: 1rem 0;
     }
 
-</script>
+    .page-card {
+        position: relative;
+        display: block;
+        border-radius: 10px;
+        overflow: hidden;
+        text-decoration: none;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .page-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    .page-card-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0.6rem 1.2rem;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    }
+
+    .page-card img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .post-content img[alt="Peter Lechner"] {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50%;
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .post-content blockquote {
+        background: rgba(255, 255, 255, 0.04);
+        border-left: 4px solid #89b4fa;
+        border-radius: 0 8px 8px 0;
+        margin: 1.2rem 0;
+        padding: 1rem 1.4rem;
+        font-style: italic;
+        color: var(--primary);
+    }
+
+    .post-content blockquote p {
+        margin: 0 0 0.3rem 0;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .post-content blockquote cite {
+        display: block;
+        font-style: normal;
+        font-size: 0.85rem;
+        color: #89b4fa;
+        margin-top: 0.5rem;
+    }
+
+@media (max-width: 640px) {
+        .page-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
 </head>
 <body class="list" id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="http://localhost:1314/" accesskey="h" title="Peter Lechner (Alt + H)">Peter Lechner</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
+            <a href="http://localhost:1234/" accesskey="h" title="Peter Lechner (Alt + H)">Peter Lechner</a>
         </div>
         <ul id="menu" class="menu">
         </ul>
@@ -103,7 +130,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1314/">Peter Lechner</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1234/">Peter Lechner</a></span> · 
 
     
     
@@ -119,7 +146,13 @@
         <polyline points="17 11 12 6 7 11"></polyline>
         <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
-</a>
+</a><footer class="footer" style="padding-top: 0; margin-top: -0.75rem;">
+    <span>All images on this site are AI-generated (ChatGPT).</span>
+</footer>
+<footer class="footer" style="padding-top: 0; margin-top: -0.75rem;">
+    <span>This site uses no cookies, collects no data, and tracks nothing. No cookie banner needed.</span>
+</footer>
+
 
 <script>
     let menu = document.getElementById('menu');
@@ -165,19 +198,6 @@
             toplink.classList.add("hidden");
         }
     };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
 
 </script>
 </body>

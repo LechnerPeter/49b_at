@@ -4,9 +4,53 @@ date = 2026-06-06T00:00:00+02:00
 draft = false
 +++
 
-## Who am I
+## Peter Lechner
 
-Tell the world about yourself here.
+![Peter Lechner](/images/who-am-i.jpg)
+
+Software developer from Angerberg, Austria. Bachelor's in Technical Mathematics from the University of Innsbruck. Currently working as a software developer in special-purpose machine engineering.
+
+---
+
+## Experience
+
+**Aeoon Technologies GmbH** — Software Developer, Special-Purpose Machine Engineering
+`06/2022 – Present`
+
+**Xatronic Software GmbH** — Python Software Developer
+`09/2020 – 05/2022`
+
+---
+
+## Education
+
+**Bachelor's in Technical Mathematics** — University of Innsbruck
+`09/2016 – 06/2020`
+
+**HLFS Ursprung** — Agriculture specialisation
+`09/2010 – 07/2015`
+
+---
+
+## Programming Skills
+
+| Language | Projects |
+|---|---|
+| **Dart/Flutter** | Print preview projector · Desktop app for creating print files |
+| **C++** | Machine software with PLC integration |
+| **C#** | 3D machine visualisation and monitoring |
+| **Python/Django** | Customer automation framework |
+| **Docker/Git** | Version management |
+
+---
+
+## Other Interests
+
+- Woodworking and handicrafts
+- 3D printing enthusiast and hobby designer
+- Organiser of the traditional Angerberger Perchtenumzug
+
+---
 
 ## Favorite Quotes
 
