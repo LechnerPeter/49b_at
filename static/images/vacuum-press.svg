@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1c2741"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+    <linearGradient id="bag" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f2744" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg)"/>
+
+  <!-- Worktable surface -->
+  <rect x="30" y="220" width="340" height="12" rx="3" fill="#334155"/>
+  <rect x="30" y="230" width="340" height="4"  rx="2" fill="#1e293b"/>
+
+  <!-- Curved wood laminate being pressed (side view) -->
+  <!-- Wood layers (veneer stack) -->
+  <path d="M80,220 Q200,140 320,220" fill="url(#wood)" stroke="#7c2d12" stroke-width="0.8"/>
+  <path d="M80,220 Q200,148 320,220 Q200,152 80,220" fill="#92400e" opacity="0.5"/>
+  <path d="M80,220 Q200,156 320,220 Q200,160 80,220" fill="#7c2d12" opacity="0.4"/>
+  <path d="M80,220 Q200,164 320,220 Q200,168 80,220" fill="#92400e" opacity="0.3"/>
+
+  <!-- Vacuum bag (transparent overlay, wrapping the wood) -->
+  <path d="M72,222 Q200,128 328,222 L328,226 Q200,136 72,226 Z"
+        fill="url(#bag)" stroke="#4a6fa5" stroke-width="1.5"/>
+  <!-- Bag wrinkle lines -->
+  <path d="M120,210 Q160,168 200,155 Q240,168 280,210"
+        fill="none" stroke="#4a6fa5" stroke-width="0.7" opacity="0.5"/>
+  <path d="M100,216 Q150,160 200,148 Q250,160 300,216"
+        fill="none" stroke="#4a6fa5" stroke-width="0.7" opacity="0.35"/>
+
+  <!-- Vacuum pump (right side) -->
+  <!-- Pump body -->
+  <rect x="298" y="150" width="70" height="55" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+  <!-- Motor fins -->
+  <line x1="308" y1="150" x2="308" y2="170" stroke="#334155" stroke-width="3"/>
+  <line x1="318" y1="150" x2="318" y2="170" stroke="#334155" stroke-width="3"/>
+  <line x1="328" y1="150" x2="328" y2="170" stroke="#334155" stroke-width="3"/>
+  <line x1="338" y1="150" x2="338" y2="170" stroke="#334155" stroke-width="3"/>
+  <!-- Gauge -->
+  <circle cx="348" cy="170" r="14" fill="#0f172a" stroke="#475569" stroke-width="1.2"/>
+  <circle cx="348" cy="170" r="11" fill="none" stroke="#334155" stroke-width="0.8"/>
+  <!-- Gauge needle pointing to -0.8 bar -->
+  <line x1="348" y1="170" x2="340" y2="162" stroke="#ef4444" stroke-width="1.5"/>
+  <circle cx="348" cy="170" r="2" fill="#64748b"/>
+  <!-- Gauge label -->
+  <text x="348" y="191" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#64748b">bar</text>
+  <!-- On/off switch -->
+  <rect x="303" y="175" width="20" height="10" rx="5" fill="#22c55e"/>
+  <circle cx="316" cy="180" r="4" fill="#fff" opacity="0.9"/>
+  <!-- Vacuum hose -->
+  <path d="M298,185 Q270,185 260,210 Q250,225 240,225"
+        fill="none" stroke="#475569" stroke-width="5" stroke-linecap="round"/>
+  <path d="M298,185 Q270,185 260,210 Q250,225 240,225"
+        fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+  <!-- Hose fitting on bag -->
+  <rect x="228" y="218" width="14" height="10" rx="2" fill="#475569"/>
+
+  <!-- Pressure arrows (showing compression) -->
+  <g fill="#41BDF5" opacity="0.7">
+    <polygon points="170,100 162,90 178,90"/>
+    <polygon points="200,88 192,78 208,78"/>
+    <polygon points="230,100 222,90 238,90"/>
+  </g>
+
+  <!-- Label: -0.9 bar vacuum indicator -->
+  <text x="333" y="148" text-anchor="middle" font-family="monospace" font-size="7" fill="#41BDF5">−0.9 bar</text>
+</svg>

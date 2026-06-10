@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1c2741"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#92400e"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg)"/>
+
+  <!-- Workpiece (top-down view of wood surface) -->
+  <rect x="40" y="60" width="320" height="200" rx="4" fill="url(#wood)"/>
+  <!-- Wood grain lines -->
+  <line x1="40" y1="80"  x2="360" y2="80"  stroke="#7c2d12" stroke-width="0.8" opacity="0.5"/>
+  <line x1="40" y1="100" x2="360" y2="100" stroke="#7c2d12" stroke-width="0.8" opacity="0.5"/>
+  <line x1="40" y1="120" x2="360" y2="120" stroke="#7c2d12" stroke-width="0.8" opacity="0.5"/>
+  <line x1="40" y1="140" x2="360" y2="140" stroke="#7c2d12" stroke-width="0.8" opacity="0.5"/>
+  <line x1="40" y1="160" x2="360" y2="160" stroke="#7c2d12" stroke-width="0.8" opacity="0.5"/>
+  <line x1="40" y1="180" x2="360" y2="180" stroke="#7c2d12" stroke-width="0.8" opacity="0.5"/>
+  <line x1="40" y1="200" x2="360" y2="200" stroke="#7c2d12" stroke-width="0.8" opacity="0.5"/>
+  <line x1="40" y1="220" x2="360" y2="220" stroke="#7c2d12" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ShaperTape dots (registration tape) -->
+  <g fill="#e2e8f0" opacity="0.6">
+    <circle cx="70"  cy="90"  r="3"/>
+    <circle cx="110" cy="90"  r="3"/>
+    <circle cx="150" cy="90"  r="3"/>
+    <circle cx="190" cy="90"  r="3"/>
+    <circle cx="230" cy="90"  r="3"/>
+    <circle cx="270" cy="90"  r="3"/>
+    <circle cx="310" cy="90"  r="3"/>
+    <circle cx="350" cy="90"  r="3"/>
+    <circle cx="70"  cy="130" r="3"/>
+    <circle cx="350" cy="130" r="3"/>
+    <circle cx="70"  cy="170" r="3"/>
+    <circle cx="350" cy="170" r="3"/>
+    <circle cx="70"  cy="210" r="3"/>
+    <circle cx="110" cy="210" r="3"/>
+    <circle cx="150" cy="210" r="3"/>
+    <circle cx="190" cy="210" r="3"/>
+    <circle cx="230" cy="210" r="3"/>
+    <circle cx="270" cy="210" r="3"/>
+    <circle cx="310" cy="210" r="3"/>
+    <circle cx="350" cy="210" r="3"/>
+  </g>
+
+  <!-- Routed path (toolpath cut into wood) -->
+  <rect x="110" y="110" width="180" height="100" rx="8" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <!-- Cut pocket (slightly darker inset) -->
+  <rect x="118" y="118" width="164" height="84" rx="5" fill="#7c2d12" opacity="0.6"/>
+
+  <!-- Shaper Origin tool body (top-down view, centered on cut) -->
+  <!-- Main body -->
+  <ellipse cx="200" cy="160" rx="44" ry="50" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <!-- Collet/bit in center -->
+  <circle cx="200" cy="160" r="6" fill="#64748b"/>
+  <circle cx="200" cy="160" r="2.5" fill="#94a3b8"/>
+  <!-- Screen (top portion of tool body) -->
+  <rect x="170" y="120" width="60" height="28" rx="4" fill="#0f172a" stroke="#4a6fa5" stroke-width="1"/>
+  <!-- Screen content: coordinate display -->
+  <text x="200" y="131" text-anchor="middle" font-family="monospace" font-size="6" fill="#22c55e">X: 12.4</text>
+  <text x="200" y="141" text-anchor="middle" font-family="monospace" font-size="6" fill="#22c55e">Y:  8.1</text>
+  <!-- Handles -->
+  <rect x="156" y="148" width="16" height="24" rx="4" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <rect x="228" y="148" width="16" height="24" rx="4" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <!-- Dust shroud ring -->
+  <circle cx="200" cy="160" r="28" fill="none" stroke="#475569" stroke-width="2.5"/>
+
+  <!-- Bit cutting mark -->
+  <circle cx="200" cy="160" r="3" fill="#fbbf24" opacity="0.8"/>
+</svg>

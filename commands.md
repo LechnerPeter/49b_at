@@ -1,7 +1,7 @@
 
 # build local image
-snap run hugo
+hugo
 
 
 # run local server
-snap run hugo server
+hugo server

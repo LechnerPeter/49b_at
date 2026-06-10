@@ -1,4 +1,30 @@
 <style>
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .header {
+        flex-shrink: 0;
+    }
+
+    .main {
+        flex: 1;
+        overflow-y: auto;
+        min-height: 0;
+    }
+
+    .footer {
+        flex-shrink: 0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
     .page-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -6,9 +32,14 @@
         padding: 1rem 0;
     }
 
+    .page-grid-2x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .page-card {
         position: relative;
         display: block;
+        aspect-ratio: 4 / 3;
         border-radius: 10px;
         overflow: hidden;
         text-decoration: none;
@@ -44,14 +75,16 @@
     }
 
     .post-content img[alt="Peter Lechner"] {
-        width: 120px;
-        height: 120px;
+        width: 220px;
+        height: 280px;
         object-fit: cover;
         object-position: top;
-        border-radius: 50%;
+        border-radius: 10px;
         float: right;
-        margin: 0 0 1rem 1.5rem;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+        position: sticky;
+        top: 1.5rem;
+        margin: 0 0 1.5rem 2rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     }
 
     .post-content blockquote {
@@ -81,6 +114,18 @@
 @media (max-width: 640px) {
         .page-grid {
             grid-template-columns: 1fr;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        :root {
+            --main-width: clamp(720px, 60vw, 2400px);
+            --nav-width: clamp(1024px, 68vw, 2800px);
+        }
+
+        .page-card-label {
+            font-size: clamp(1.2rem, 1.5vw, 2.8rem);
+            padding: clamp(0.6rem, 0.8vw, 1.6rem) clamp(1.2rem, 1.5vw, 3rem);
         }
     }
 </style>

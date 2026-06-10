@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1c2741"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg)"/>
+
+  <!-- Printer frame: two uprights + top bar + base -->
+  <rect x="110" y="40" width="15" height="210" rx="3" fill="#2d4263"/>
+  <rect x="275" y="40" width="15" height="210" rx="3" fill="#2d4263"/>
+  <rect x="110" y="40" width="180" height="14" rx="3" fill="#3d5a80"/>
+  <rect x="98"  y="237" width="204" height="14" rx="4" fill="#3d5a80"/>
+
+  <!-- Z-axis lead screw (left side, decorative) -->
+  <line x1="118" y1="54" x2="118" y2="237" stroke="#4a6fa5" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- X-axis rod -->
+  <rect x="122" y="118" width="156" height="7" rx="3.5" fill="#4a6fa5"/>
+
+  <!-- Print head carriage -->
+  <rect x="178" y="105" width="44" height="36" rx="3" fill="#2d4263" stroke="#4a6fa5" stroke-width="1.2"/>
+  <!-- Cooling fan grille -->
+  <circle cx="188" cy="118" r="9" fill="none" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="188" y1="109" x2="188" y2="127" stroke="#64748b" stroke-width="1"/>
+  <line x1="179" y1="118" x2="197" y2="118" stroke="#64748b" stroke-width="1"/>
+  <!-- Heating block -->
+  <rect x="196" y="133" width="18" height="13" rx="1" fill="#b91c1c"/>
+  <!-- Nozzle -->
+  <polygon points="200,146 210,146 207,160 203,160" fill="#94a3b8"/>
+
+  <!-- Printed object (isometric-ish box) -->
+  <rect x="172" y="168" width="56" height="40" rx="1" fill="#7c3aed" opacity="0.75"/>
+  <line x1="172" y1="174" x2="228" y2="174" stroke="#6d28d9" stroke-width="0.9"/>
+  <line x1="172" y1="180" x2="228" y2="180" stroke="#6d28d9" stroke-width="0.9"/>
+  <line x1="172" y1="186" x2="228" y2="186" stroke="#6d28d9" stroke-width="0.9"/>
+  <line x1="172" y1="192" x2="228" y2="192" stroke="#6d28d9" stroke-width="0.9"/>
+  <line x1="172" y1="198" x2="228" y2="198" stroke="#6d28d9" stroke-width="0.9"/>
+
+  <!-- Build plate -->
+  <rect x="125" y="208" width="150" height="10" rx="2" fill="#334155"/>
+  <!-- Heated bed glow -->
+  <rect x="125" y="208" width="150" height="4" rx="2" fill="#b91c1c" opacity="0.25"/>
+
+  <!-- Filament spool (right) -->
+  <circle cx="338" cy="100" r="40" fill="none" stroke="#2d4263" stroke-width="8"/>
+  <circle cx="338" cy="100" r="16" fill="#1e293b"/>
+  <circle cx="338" cy="100" r="5.5" fill="#4a6fa5"/>
+  <circle cx="338" cy="100" r="40" fill="none" stroke="#7c3aed" stroke-width="4" opacity="0.55"/>
+  <circle cx="338" cy="100" r="33" fill="none" stroke="#7c3aed" stroke-width="2.5" opacity="0.35"/>
+  <!-- Filament path -->
+  <path d="M298,100 Q278,108 272,122" fill="none" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5,3" opacity="0.65"/>
+
+  <!-- Small display on top bar -->
+  <rect x="222" y="43" width="56" height="20" rx="2" fill="#0f172a" stroke="#4a6fa5" stroke-width="0.8"/>
+  <text x="250" y="57" text-anchor="middle" font-family="monospace" font-size="7" fill="#22c55e">PRINTING</text>
+
+  <!-- Filament spool stand (left) -->
+  <circle cx="62"  cy="100" r="40" fill="none" stroke="#2d4263" stroke-width="8"/>
+  <circle cx="62"  cy="100" r="16" fill="#1e293b"/>
+  <circle cx="62"  cy="100" r="5.5" fill="#4a6fa5"/>
+  <circle cx="62"  cy="100" r="40" fill="none" stroke="#22c55e" stroke-width="4" opacity="0.55"/>
+  <circle cx="62"  cy="100" r="33" fill="none" stroke="#22c55e" stroke-width="2.5" opacity="0.35"/>
+  <path d="M102,100 Q122,108 128,122" fill="none" stroke="#22c55e" stroke-width="2" stroke-dasharray="5,3" opacity="0.65"/>
+</svg>
