@@ -4,4 +4,4 @@ hugo
 
 
 # run local server
-hugo server
+hugo server --port 1234

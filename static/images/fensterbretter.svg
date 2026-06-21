@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1c2741"/>
+    </linearGradient>
+    <linearGradient id="wood1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a96e"/>
+      <stop offset="100%" stop-color="#a67c52"/>
+    </linearGradient>
+    <linearGradient id="wood2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b8945a"/>
+      <stop offset="100%" stop-color="#96703e"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#162d4a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#bg)"/>
+
+  <!-- Wall behind window -->
+  <rect x="0" y="0" width="400" height="300" fill="url(#wall)" opacity="0.5"/>
+
+  <!-- Window frame (outer) -->
+  <rect x="60" y="20" width="280" height="200" rx="4" fill="#1e293b" stroke="#334155" stroke-width="3"/>
+
+  <!-- Window glass (sky outside) -->
+  <rect x="68" y="28" width="264" height="184" rx="2" fill="#0ea5e9" opacity="0.18"/>
+
+  <!-- Window cross frame -->
+  <rect x="60" y="108" width="280" height="8" fill="#1e293b"/>
+  <rect x="196" y="20" width="8" height="200" fill="#1e293b"/>
+
+  <!-- Glass panes (subtle light reflection) -->
+  <rect x="68" y="28" width="122" height="76" rx="1" fill="#bae6fd" opacity="0.07"/>
+  <rect x="210" y="28" width="122" height="76" rx="1" fill="#bae6fd" opacity="0.07"/>
+  <rect x="68" y="116" width="122" height="88" rx="1" fill="#bae6fd" opacity="0.04"/>
+  <rect x="210" y="116" width="122" height="88" rx="1" fill="#bae6fd" opacity="0.04"/>
+
+  <!-- Light glare on glass top-left of each pane -->
+  <line x1="76"  y1="34" x2="100" y2="34" stroke="#e0f2fe" stroke-width="1.5" opacity="0.3"/>
+  <line x1="218" y1="34" x2="242" y2="34" stroke="#e0f2fe" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Windowsill board (Fensterbrett) - main piece -->
+  <rect x="44" y="220" width="312" height="22" rx="3" fill="url(#wood1)"/>
+
+  <!-- Wood grain lines on sill top face -->
+  <line x1="60"  y1="224" x2="340" y2="224" stroke="#a67c52" stroke-width="0.8" opacity="0.5"/>
+  <line x1="60"  y1="228" x2="340" y2="228" stroke="#96703e" stroke-width="0.6" opacity="0.4"/>
+  <line x1="60"  y1="232" x2="340" y2="232" stroke="#a67c52" stroke-width="0.8" opacity="0.4"/>
+  <line x1="60"  y1="236" x2="340" y2="236" stroke="#96703e" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Sill front edge (slightly darker) -->
+  <rect x="44" y="238" width="312" height="6" rx="2" fill="url(#wood2)"/>
+
+  <!-- Sill underside shadow -->
+  <rect x="46" y="243" width="310" height="3" rx="1" fill="#0f172a" opacity="0.4"/>
+
+  <!-- Routed edge profile on front of sill (decorative ogee) -->
+  <path d="M44,238 Q44,244 50,244 L350,244 Q356,244 356,238" fill="none" stroke="#7c5c3a" stroke-width="1" opacity="0.6"/>
+
+  <!-- Wall below sill -->
+  <rect x="0" y="244" width="400" height="56" fill="#162d4a" opacity="0.6"/>
+
+  <!-- Plant pot (left) on sill -->
+  <g transform="translate(72,190)">
+    <!-- Pot -->
+    <path d="M4,30 L0,50 L24,50 L20,30 Z" fill="#b45309"/>
+    <rect x="-1" y="28" width="26" height="5" rx="2" fill="#d97706"/>
+    <!-- Soil -->
+    <ellipse cx="12" cy="30" rx="11" ry="4" fill="#451a03"/>
+    <!-- Plant stems -->
+    <line x1="12" y1="30" x2="8"  y2="10" stroke="#16a34a" stroke-width="1.5"/>
+    <line x1="12" y1="30" x2="12" y2="5"  stroke="#16a34a" stroke-width="1.5"/>
+    <line x1="12" y1="30" x2="16" y2="12" stroke="#16a34a" stroke-width="1.5"/>
+    <!-- Leaves -->
+    <ellipse cx="7"  cy="8"  rx="6" ry="4" fill="#16a34a" transform="rotate(-30,7,8)"/>
+    <ellipse cx="12" cy="3"  rx="5" ry="4" fill="#15803d"/>
+    <ellipse cx="17" cy="10" rx="6" ry="4" fill="#16a34a" transform="rotate(25,17,10)"/>
+  </g>
+
+  <!-- Small decorative object (right) -->
+  <g transform="translate(284,200)">
+    <!-- Candle -->
+    <rect x="8" y="10" width="14" height="25" rx="2" fill="#f1f5f9"/>
+    <!-- Candle top drip -->
+    <rect x="7" y="9"  width="16" height="4" rx="2" fill="#e2e8f0"/>
+    <!-- Flame -->
+    <ellipse cx="15" cy="7" rx="3" ry="5" fill="#f59e0b" opacity="0.9"/>
+    <ellipse cx="15" cy="6" rx="1.5" ry="3" fill="#fef3c7" opacity="0.8"/>
+    <!-- Plate under candle -->
+    <ellipse cx="15" cy="36" rx="12" ry="3" fill="#cbd5e1"/>
+  </g>
+</svg>
