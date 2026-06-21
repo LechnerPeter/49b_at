@@ -1,58 +1,58 @@
 +++
-title = 'Fensterbretter'
+title = 'Window Sills'
 date = 2026-06-12T00:00:00+02:00
+weight = 4
 draft = false
 image = '/images/fensterbretter.svg'
 +++
 
-## Material
+## Materials
 
-- 18mm Sperrholz Buche
-- 1.5mm europäische Nuss Furnier
-- 55mm europäische Nuss Brett sägerau
-- Leim
-- Hartwachsöl
-- Parkettkleber
-- Acryl
-- Vakuumpresse (Sperrholz kann auch anders Furniert werden)
+- 18mm birch plywood
+- 1.5mm European walnut veneer
+- 55mm European walnut board (rough-sawn)
+- Wood glue
+- Hard wax oil
+- Parquet adhesive
+- Acrylic sealant
+- Vacuum press (plywood can also be veneered other ways)
 
-## Werkzeug
+## Tools
 
-- Sawstop Kreissäge
-- Abricht-Dickenhobel
-- Oberfräse
-- Kappsäge
+- Sawstop table saw
+- Jointer/planer
+- Router
+- Miter saw
 
-## Schritte
+## Steps
 
-### Sperrholz zuschneiden
-- +5mm in der Tiefe
-- +20mm in der Breite
+### Cut plywood to size
+- +5mm in depth
+- +20mm in width
 
-### Sperrholz furnieren
-- Überstand entfernen
+### Veneer the plywood
+- Trim the overhang flush
 
-### Furniertes Sperrholz exakt zuschneiden
-- Pro Fenster!
+### Cut veneered plywood to exact size
+- Per window!
 
-### Leisten machen
-- Massivholz so früh als möglich in kleinere Teile aufteilen
-- +20mm Überstand (wieder pro Fenster)
-- Anleimen — nicht bündig, sondern so dass es minimal nach oben übersteht (wenn man nämlich darunter ist, muss man eine große Fläche abschleifen)
+### Make the solid wood edging
+- Split solid wood into smaller pieces as early as possible
+- +20mm overhang (again, per window)
+- Glue on — not flush, but so it protrudes slightly above the surface (working from below later would require sanding a large area)
 
-### Fertigstellen
-- Den minimalen Überstand wegschleifen (80 Grit)
-- Vorschleifen (120 Grit)
-- Fasen/Rundung fräsen
-- Fertig schleifen (180 Grit)
-- Oberfläche ölen
+### Finishing
+- Sand off the minimal overhang (80 grit)
+- Pre-sand (120 grit)
+- Rout chamfer/roundover
+- Final sand (180 grit)
+- Oil the surface
 
-### Einbauen
-- Parkettkleber auf die Fläche (falls notwendig unterlegen zum Einrichten)
-- Mit Acryl Fuge füllen (vorher mit Malerband Fensterbank und Wand abkleben)
+### Installation
+- Apply parquet adhesive to the surface (shim if necessary for leveling)
+- Fill the joint with acrylic sealant (first tape off the sill and wall with painter's tape)
 
-
-## Preis (600€ / 24lfm = 25€/lfm)
-- 300€ Sperrholz 
-- 100€ Funier
-- 200€? Massivholz
+## Cost (€600 / 24 lm = €25/lm)
+- €300 Plywood
+- €100 Veneer
+- €200? Solid wood

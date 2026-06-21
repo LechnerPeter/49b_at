@@ -1,20 +1,20 @@
 {{- define "main" }}
 <div class="page-grid page-grid-2x2">
-  <a class="page-card" href="/programming/">
-    <img src="/images/programming.png" alt="Programming">
-    <span class="page-card-label">Programming</span>
+  <a class="page-card" href="{{ "programming/" | relLangURL }}">
+    <img src="/images/programming.png" alt="{{ i18n "programming" }}">
+    <span class="page-card-label">{{ i18n "programming" }}</span>
   </a>
-  <a class="page-card" href="/woodworking/">
-    <img src="/images/Bilderrahmen2.jpg" alt="Woodworking">
-    <span class="page-card-label">Woodworking</span>
+  <a class="page-card" href="{{ "woodworking/" | relLangURL }}">
+    <img src="/images/Bilderrahmen2.jpg" alt="{{ i18n "woodworking" }}">
+    <span class="page-card-label">{{ i18n "woodworking" }}</span>
   </a>
-  <a class="page-card" href="/maker-space/">
-    <img src="/images/maker-space.png" alt="Maker Space">
-    <span class="page-card-label">Maker Space</span>
+  <a class="page-card" href="{{ "maker-space/" | relLangURL }}">
+    <img src="/images/maker-space.png" alt="{{ i18n "makerspace" }}">
+    <span class="page-card-label">{{ i18n "makerspace" }}</span>
   </a>
-  <a class="page-card" href="/about-me/">
-    <img src="/images/who-am-i.jpg" alt="About Me">
-    <span class="page-card-label">About Me</span>
+  <a class="page-card" href="{{ "about-me/" | relLangURL }}">
+    <img src="/images/who-am-i.jpg" alt="{{ i18n "aboutme" }}">
+    <span class="page-card-label">{{ i18n "aboutme" }}</span>
   </a>
 </div>
 {{- end }}

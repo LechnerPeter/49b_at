@@ -5,7 +5,3 @@ weight = 3
 draft = false
 image = '/images/Pedalex.jpeg'
 +++
-
-## Logos
-
-Write about the logos project here.
