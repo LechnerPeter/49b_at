@@ -59,25 +59,33 @@
                 {{- end }}
                 
                 {{- if (not site.Params.disableLangToggle) }}
+                    {{- $currentPage := . }}
                     {{- $lang := .Lang}}
-                    {{- with (.Translations | default site.Home.Translations) }}
+                    {{- $translations := (.Translations | default site.Home.Translations) }}
+                    {{- if $translations }}
                     {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
                     {{- if $separator }}<span class="nav-sep">|</span>{{ end }}
                     <ul class="lang-menu">
-                        {{- range . -}}
-                        {{- if ne $lang .Lang }}
-                        <li>
-                            <a href="{{- .RelPermalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
-                                aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                                {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
-                                {{- .Language.LanguageName | emojify -}}
-                                {{- else }}
-                                {{- .Lang | title -}}
-                                {{- end -}}
-                            </a>
-                        </li>
-                        {{- end -}}
-                        {{- end}}
+                        {{- range site.Languages }}
+                        {{- $targetLang := .Lang }}
+                        {{- if eq $targetLang $lang }}
+                        <li><a href="{{ $currentPage.RelPermalink }}" class="lang-active">{{ $targetLang | title }}</a></li>
+                        {{- else }}
+                            {{- $target := index (where $translations "Lang" $targetLang) 0 }}
+                            {{- with $target }}
+                            <li>
+                                <a href="{{- .RelPermalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
+                                    aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
+                                    {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
+                                    {{- .Language.LanguageName | emojify -}}
+                                    {{- else }}
+                                    {{- .Lang | title -}}
+                                    {{- end -}}
+                                </a>
+                            </li>
+                            {{- end }}
+                        {{- end }}
+                        {{- end }}
                     </ul>
                     {{- end }}
                 {{- end }}
