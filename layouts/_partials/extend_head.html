@@ -81,6 +81,44 @@
         pointer-events: none;
     }
 
+    #lightbox {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.92);
+        z-index: 9999;
+        cursor: zoom-out;
+        align-items: center;
+        justify-content: center;
+    }
+    #lightbox.active { display: flex; }
+    #lightbox img {
+        max-width: 82vw;
+        max-height: 92vh;
+        object-fit: contain;
+        border-radius: 6px;
+        box-shadow: 0 8px 40px rgba(0,0,0,0.8);
+    }
+    .photo-gallery img { cursor: zoom-in; }
+    #lb-prev, #lb-next {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(255,255,255,0.12);
+        border: none;
+        color: #fff;
+        font-size: 2.5rem;
+        line-height: 1;
+        padding: 0.6rem 1rem;
+        cursor: pointer;
+        border-radius: 6px;
+        z-index: 10000;
+        transition: background 0.15s;
+    }
+    #lb-prev:hover, #lb-next:hover { background: rgba(255,255,255,0.28); }
+    #lb-prev { left: 1rem; }
+    #lb-next { right: 1rem; }
+
     .post-content img[alt="Peter Lechner"] {
         width: 220px;
         height: 280px;
