@@ -5,13 +5,19 @@ draft = false
 image = '/images/perchtelumzug.png'
 +++
 
-<img src="/images/perchtelumzug.png" alt="Angerberger Perchtelumzug" style="max-width: 260px; float: right; margin: 0 0 1.5rem 2rem; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.4);">
-
 ## Pertelumzug Angerberg
+
+<details class="passen-details">
+<summary>Was ist Perchteln?</summary>
+
+Das Perchtln in Angerberg ist ein alter Tiroler Brauch. Dabei ziehen sogenannte Perchten- oder Peaschtl-Passen mit geschnitzten Holzmasken, schweren Kostümen, Schellen und Trommeln durch den Ort. Mit ihrem Lärm und Auftreten sollen sie böse Wintergeister vertreiben und Glück, Gesundheit sowie eine gute Ernte für das kommende Jahr bringen. In Angerberg ist dieser Brauch besonders traditionell geblieben: Neben dem Perchten- und Nikolauseinzug am Dorfplatz gehört auch das Ziehen von Haus zu Haus zur Dorfgemeinschaft. Das Perchtln ist daher nicht nur ein schauriges Schauspiel, sondern ein wichtiger Teil der regionalen Kultur und Identität.
+
+</details>
 
 Alljährlich findet in Angerberg der Perchtelumzug statt, seit 2024 wird er von der Landjugend veranstaltet.
 
-## Die Passen
+<details class="passen-details">
+<summary>Die Passen</summary>
 
 - Angerberger Gruab Pass
 - Rambazamba Pass
@@ -29,17 +35,33 @@ Alljährlich findet in Angerberg der Perchtelumzug statt, seit 2024 wird er von 
 - Fok'n Pass
 - Foastnheisl Pass
 
-## Was gibt es bei uns
+</details>
 
-- Perchteln
-- Kinder Perchtln
-- Nikolaus mit Überraschung für die Kleinen
-- Essen und Getränke
-- Winterliche musikalische Umrahmung
+<div class="comparison">
+  <div class="comparison-col comparison-yes">
+    <h3>Was gibt es bei uns</h3>
+    <ul>
+      <li>Perchteln</li>
+      <li>Kinder Perchtln</li>
+      <li>Nikolaus mit Überraschung für die Kleinen</li>
+      <li>Essen und Getränke</li>
+      <li>Winterliche musikalische Umrahmung</li>
+    </ul>
+  </div>
+  <div class="comparison-col comparison-no">
+    <h3>Was gibt es bei uns nicht</h3>
+    <ul>
+      <li>Feuer</li>
+      <li>Rauch</li>
+      <li>Gewalt</li>
+    </ul>
+  </div>
+</div>
 
 ## Bilder
 
 <div class="photo-gallery" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1rem 0;">
+<img src="/images/perchtelumzug.png" alt="Angerberger Perchtelumzug" style="width:100%;aspect-ratio:4/3;object-fit:cover;object-position:top;border-radius:8px;">
 <img src="/images/perchteln/DSC02163.JPG" alt="Perchten" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;">
 <img src="/images/perchteln/DSC02204.JPG" alt="Perchten" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;">
 <img src="/images/perchteln/DSC02227.JPG" alt="Perchten" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;">
@@ -57,11 +79,6 @@ Alljährlich findet in Angerberg der Perchtelumzug statt, seit 2024 wird er von 
 <img src="/images/perchteln/IMG_4023.jpeg" alt="Perchten" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;">
 </div>
 
-## Was gibt es bei uns nicht
-
-- Feuer
-- Rauch
-- Gewalt
 
 <div id="lightbox">
   <button id="lb-prev">&#8249;</button>

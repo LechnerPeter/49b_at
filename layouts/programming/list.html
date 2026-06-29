@@ -1,7 +1,7 @@
 {{- define "main" }}
 <div class="page-grid">
   {{- range .Pages }}
-  <a class="page-card" href="{{ .Permalink }}">
+  <a class="page-card" href="{{ .RelPermalink }}">
     <img src="{{ .Params.image }}" alt="{{ .Title }}">
     <span class="page-card-label">{{ .Title }}</span>
   </a>

@@ -5,13 +5,19 @@ draft = false
 image = '/images/perchtelumzug.png'
 +++
 
-<img src="/images/perchtelumzug.png" alt="Angerberger Perchtelumzug" style="max-width: 260px; float: right; margin: 0 0 1.5rem 2rem; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.4);">
-
 ## Perchten Procession Angerberg
+
+<details class="passen-details">
+<summary>What is Perchteln?</summary>
+
+The Perchteln tradition in Angerberg is an old Tyrolean custom. Groups known as Perchten- or Peaschtl-Passen march through the village wearing hand-carved wooden masks, heavy costumes, cowbells and drums. With their noise and presence they are meant to drive away evil winter spirits and bring luck, health and a good harvest for the coming year. In Angerberg this custom has remained particularly traditional: alongside the Perchten and St. Nicholas procession at the village square, going from house to house is also part of the community. The Perchteln is therefore not just a spooky spectacle, but an important part of regional culture and identity.
+
+</details>
 
 Every year the Perchten procession takes place in Angerberg. Since 2024 it has been organized by the Landjugend (rural youth association).
 
-## The Groups
+<details class="passen-details">
+<summary>The Groups</summary>
 
 - Angerberger Gruab Pass
 - Rambazamba Pass
@@ -29,17 +35,33 @@ Every year the Perchten procession takes place in Angerberg. Since 2024 it has b
 - Fok'n Pass
 - Foastnheisl Pass
 
-## What we offer
+</details>
 
-- Perchten
-- Children's Perchten
-- St. Nicholas with a surprise for the little ones
-- Food and drinks
-- Wintery musical entertainment
+<div class="comparison">
+  <div class="comparison-col comparison-yes">
+    <h3>What we offer</h3>
+    <ul>
+      <li>Perchten</li>
+      <li>Children's Perchten</li>
+      <li>St. Nicholas with a surprise for the little ones</li>
+      <li>Food and drinks</li>
+      <li>Wintery musical entertainment</li>
+    </ul>
+  </div>
+  <div class="comparison-col comparison-no">
+    <h3>What we don't offer</h3>
+    <ul>
+      <li>Fire</li>
+      <li>Smoke</li>
+      <li>Violence</li>
+    </ul>
+  </div>
+</div>
 
 ## Photos
 
 <div class="photo-gallery" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1rem 0;">
+<img src="/images/perchtelumzug.png" alt="Angerberger Perchtelumzug" style="width:100%;aspect-ratio:4/3;object-fit:cover;object-position:top;border-radius:8px;">
 <img src="/images/perchteln/DSC02163.JPG" alt="Perchten" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;">
 <img src="/images/perchteln/DSC02204.JPG" alt="Perchten" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;">
 <img src="/images/perchteln/DSC02227.JPG" alt="Perchten" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;">
@@ -57,11 +79,6 @@ Every year the Perchten procession takes place in Angerberg. Since 2024 it has b
 <img src="/images/perchteln/IMG_4023.jpeg" alt="Perchten" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;">
 </div>
 
-## What we don't offer
-
-- Fire
-- Smoke
-- Violence
 
 <div id="lightbox">
   <button id="lb-prev">&#8249;</button>
