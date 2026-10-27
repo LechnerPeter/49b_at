@@ -6,6 +6,16 @@ draft = false
 image = '/images/fensterbretter.svg'
 +++
 
+## Goals
+
+- Real wood (veneer on top, solid wood at the front)
+- Front wider than the window recess
+- Can be fitted after the fact
+
+## Drawing
+
+<img src="/images/fensterbretter-drawing.png" alt="Window sill drawing" style="width: 100%; border-radius: 8px;">
+
 ## Materials
 
 - 18mm birch plywood

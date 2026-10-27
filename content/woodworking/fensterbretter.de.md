@@ -6,6 +6,16 @@ draft = false
 image = '/images/fensterbretter.svg'
 +++
 
+## Ziele
+
+- Echtholz (oben Furnier, vorne Massiv)
+- Front breiter als die Nische
+- Im Nachhinein einsetzbar
+
+## Zeichnung
+
+<img src="/images/fensterbretter-drawing.png" alt="Zeichnung Fensterbrett" style="width: 100%; border-radius: 8px;">
+
 ## Material
 
 - 18mm Sperrholz Buche

@@ -48,7 +48,7 @@ Softwareentwickler aus Angerberg, Tirol. Bachelor in Technischer Mathematik an d
 
 - Holzarbeiten und Handwerk
 - 3D-Druck-Enthusiast und Hobbydesigner
-- Organisator des traditionellen Angerberger Perchtenumzugs
+- Organisator des traditionellen [Angerberger Perchtenumzugs](https://peaschtln.at/)
 
 ---
 
